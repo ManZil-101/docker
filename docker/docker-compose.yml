@@ -1,0 +1,9 @@
+version: '3.11.3'
+
+services: 
+  web: 
+    build:
+      context: docker
+      target: manzil
+    ports: 
+      - '8000:8000'
